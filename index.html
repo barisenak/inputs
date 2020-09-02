@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <input id="userName" type="text" placeholder="Введите ФИО"/>
+        <p id="string" class="attention display">Вы не заполнили ФИО</p>
+        <p id="margin-zero">Введите дату рождения:</p>
+        <input id="date" type="date"/>
+        <div>Выберите пол:
+            <input id="woman" type="radio" name="gender" value="woman">Женский</input>
+            <input id="man" type="radio" name="gender" value="man">Мужской</input>
+        </div>
+        <select id="education">
+            <option>Выберите уровень вашего образования</option>
+            <option value="высшее">Высшее</option>
+            <option value="среднее">Среднее</option>
+            <option value="низшее">Низшее</option>
+        </select>
+        <button id="select">Отправить</button>
+    </div>
+    <div id ="window" class="windowClass">&#8855</div>
+
+    <script src="index.js"></script>
+</body>
+</html>

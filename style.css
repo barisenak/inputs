@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 40px auto;
+    width: 30%;
+}
+
+#select {
+    width: 30%;
+    margin: 20px auto;
+}
+
+.windowClass{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(180, 224, 206);
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#userName{
+    margin-bottom: 10px;
+}
+
+.attention{
+    position: absolute;
+    margin-top: 25px;
+    font-size: 10px;
+    color: red;
+    display: none;
+}
+
+#margin-zero{
+    margin: 0px;
+}
